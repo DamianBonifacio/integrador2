@@ -1,0 +1,23 @@
+footer{
+    background-color:#34699D;
+    height:10vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:1rem;
+    color:white;
+}
+.estudiante{
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+.totalColor{
+    background-color: lightblue;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: .8rem;
+    border: 1px solid ;
+    border-radius: 5px;
+}

@@ -1,0 +1,156 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.CodoACodo {
+    width:5%;
+    
+}
+
+.rowConfBsAs {
+    min-height: 400px; 
+    background:rgba(0, 0, 0, 0.4) url("imagenes_integrador_front/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    background-blend-mode: darken;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rowConfBsAs > *{
+    align-self: end;
+    width:50%;
+    min-width:260px;
+    text-align: right;
+    margin-right:10%;
+}
+.botonQSOrador{
+    display: inline-block;
+    position: relative;
+}
+.losOradores {
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+.botonesJobs .btn-warning {
+    font-weight:bold!important;
+}
+.botonesJobs .btn-info {
+    font-weight:bold !important;
+    
+} 
+.tituloJobs {
+    font-weight: bold;
+    font-size: 1.1rem ;
+}   
+.textoJobs {
+    text-align:left;
+}
+
+.botonesBill .btn-warning {
+    font-weight:bold !important;
+}
+.botonesBill .btn-info {
+    font-weight:bold !important;
+}
+.tituloBill{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.textoBill {
+    text-align:left;
+}
+
+.botonesAda .btn-secondary {
+    font-weight:bold !important;
+}
+
+.botonesAda .btn-danger {
+    font-weight:bold !important;
+}
+
+.tituloAda {
+    font-weight: bold;
+    font-size: 1.1rem ;
+}
+
+.textoAda {
+    text-align:left;
+}
+
+.btnConoceMas {
+    border-radius:5px;
+    border: solid 1px;
+    border-color: azure;
+    margin-top: 3%;
+}
+.fondoHonolulu{
+    min-height: 400px; 
+    background-image:url("imagenes_integrador_front/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;    
+}
+.textoHonolulu{
+    border: 2px solid white; 
+}
+.textoHonolulu h4{
+    padding-top:1rem;
+}
+.row{
+    flex-wrap: wrap;
+}
+p{
+    margin-top:1rem !important;
+}
+.infoPais{
+    margin-top:2rem;
+   
+}
+.formulario{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+    
+}
+
+.formulario .boton{
+    color:white;
+}
+.formulario span{
+    color:gray;
+}
+footer{
+    background-color:#34699D;
+    height:10vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:1rem;
+    color:white;
+}
+form {
+    padding: 2% 25%;
+    }
+.enviar{
+    background-color: rgb(150,201,62);
+    color:white;
+    border:none;
+    width:100%;
+    border-radius:4px;
+    padding:0.3rem;
+}
+#comment{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+h6{
+    font-size:smaller;
+    color:grey;
+}
